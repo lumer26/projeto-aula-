@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+
+.pagina {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon-green {
+  color: #10B981; 
+}
+
+.icon-red {
+  color: #EF4444; 
+}
+
+.icon-plus {
+  color: #D1D5DB; 
+  cursor: pointer;
+}
+
+.icon-plus:hover {
+  color: #10B981;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: #1F2937; 
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-titulo {
+  font-size: 0.8rem;
+}
+
+.card-entrada {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #10B981;
+}
+
+.card-saida {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #EF4444;
+}
+
+/* Grafico e categorias */
+.grafico {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+.grafico2, .categorias, .transacoes {
+  background-color: #1F2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.titulo {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.table {
+  width: 100%;
+  font-size: 0.875rem;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table-head {
+  padding: 0.5rem 0;
+}
+
+.table-cell {
+  padding: 0.5rem 0;
+}
+
+.table-row {
+  border-bottom: 1px solid #374151; 
+}
+
+.texto-red {
+  color: #EF4444;
+}
+
+.text-right {
+  text-align: right;
+}
